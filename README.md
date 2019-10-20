@@ -1,4 +1,4 @@
-# secure-chat-app
+# Secure Chat App
 
 ## Hybrid Cryptography
 Asymmetric and Symmetric crypto systems together provide security for the data transmission over insecure medium. It works in two stages, in first stage the key to encrypt/decrypt the information is shared using RSA key pairs (Asymmetric Crypto). After the completion of first stage, the communication happens over second stage where the information is encrypted/decrypted using AES symmetric keys (Shared securely in first stage).
@@ -14,14 +14,13 @@ In second terminal window: Run the client program - $java Client
 
 ### Key features used:
 
-- java networking client and server sockets
+- Java networking client and server sockets
 - Threads.
 - Java Serialisation.
 - Java Cryptography Architecture
 
 ### Security Algorithms Used:
 RSA and AES
-
 
 The proof of concept application consists of four java classes:
 
@@ -30,13 +29,11 @@ The proof of concept application consists of four java classes:
 3. message.java
 4. RSA.java
 
-
 Compilation: Only Server and Client class needs compilation.
 
 When the Client program is run, first stage of sharing the key takes place automatically.
 
 After the first stage, both - Client and Server can send and receive messages.
-
 
 
 IMP: 
